@@ -9,8 +9,9 @@ import {
 } from 'react-native';
 
 import LocationLive      from './components/Location';
-import TripleCompass           from './components/TripleCompass';
+import TripleCompass     from './components/TripleCompass';
 import MultiCameraViewer from './components/MultiCameraViewer';
+import Compass           from './components/Compass';
 
 export default function App() {
   const isDark = useColorScheme() === 'dark';
